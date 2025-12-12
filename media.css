@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: arial,sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 1rem;
+}
+.logo{
+    colour:white;
+    font-size: 1.5rem;
+}
+.menu{
+    display:none;
+    flex-direction: absolute;
+    background: black;
+position: absolute;
+top: 60px;
+right: 20px;
+width: 200px;
+
+}
+.menu{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+.hamburg{
+    font-size: ;
+    color:white;
+    cursor: pointer;
+}
+@media (min-width:768px){
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        position:static ;
+        background:none ;
+        width: auto;
+        
+    }
+}
+
+
